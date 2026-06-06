@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" packagePrefix="org.myorg" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file:///opt/homebrew/Cellar/hadoop/3.4.2/libexec/share/hadoop/mapreduce" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file:///opt/homebrew/Cellar/hadoop/3.4.2/libexec/share/hadoop/mapreduce/jdiff" />
+        </SOURCES>
+        <jarDirectory url="file:///opt/homebrew/Cellar/hadoop/3.4.2/libexec/share/hadoop/mapreduce" recursive="false" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file:///opt/homebrew/Cellar/hadoop/3.4.2/libexec/share/hadoop/common" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file:///opt/homebrew/Cellar/hadoop/3.4.2/libexec/share/hadoop/common/jdiff" />
+        </SOURCES>
+        <jarDirectory url="file:///opt/homebrew/Cellar/hadoop/3.4.2/libexec/share/hadoop/common" recursive="false" />
+      </library>
+    </orderEntry>
+  </component>
+</module>
